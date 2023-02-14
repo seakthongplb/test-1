@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="TicketHelpDeskInsertionView" customModule="TurboTech" customModuleProvider="target">
+            <connections>
+                <outlet property="assignToAndStatusStackView" destination="8Qw-Ix-pJk" id="gGE-fd-XJY"/>
+                <outlet property="assignToDepartmentTextField" destination="lJi-mb-l40" id="WWb-yA-q84"/>
+                <outlet property="assignToDeptStackView" destination="i5W-xy-v7v" id="vMb-Re-H9g"/>
+                <outlet property="assignToStaffTextField" destination="rdy-Bd-N8S" id="RHN-Av-i2Q"/>
+                <outlet property="categoryTextField" destination="2I5-Yn-aiV" id="O63-XW-Gf1"/>
+                <outlet property="contactNameTextField" destination="NF7-GG-FNZ" id="H0e-OU-f6p"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="iPn-zN-Ynf"/>
+                <outlet property="descriptionTextView" destination="UJt-D1-Kwr" id="owi-qt-lDc"/>
+                <outlet property="organizationNameTextField" destination="tHv-sK-nWo" id="52p-Ux-fDE"/>
+                <outlet property="severityTextField" destination="BmY-Mf-NMY" id="zB5-Mg-0PG"/>
+                <outlet property="statusTextField" destination="oIg-Sm-uis" id="lg0-pV-bQh"/>
+                <outlet property="subjectTextField" destination="kpz-MM-baZ" id="gOt-jW-RBZ"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="356" height="512"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="rwd-R4-RRt">
+                    <rect key="frame" x="8" y="60" width="340" height="404"/>
+                    <subviews>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pSY-Ux-oSb">
+                            <rect key="frame" x="0.0" y="0.0" width="340" height="44"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="subject" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="kpz-MM-baZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="340" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstAttribute="height" constant="44" id="5Sy-8Y-L3o"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="dXD-UU-PoP">
+                            <rect key="frame" x="0.0" y="60" width="340" height="44"/>
+                            <subviews>
+                                <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" scrollEnabled="NO" showsHorizontalScrollIndicator="NO" showsVerticalScrollIndicator="NO" keyboardDismissMode="onDrag" translatesAutoresizingMaskIntoConstraints="NO" id="UJt-D1-Kwr">
+                                    <rect key="frame" x="0.0" y="0.0" width="340" height="44"/>
+                                    <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                    <color key="textColor" systemColor="labelColor" cocoaTouchSystemColor="darkTextColor"/>
+                                    <fontDescription key="fontDescription" name=".AppleSystemUIFont" family=".AppleSystemUIFont" pointSize="16"/>
+                                    <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                                </textView>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="pb6-bq-95z">
+                            <rect key="frame" x="0.0" y="120" width="340" height="44"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="organization name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="tHv-sK-nWo">
+                                    <rect key="frame" x="0.0" y="0.0" width="340" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="KgX-eD-UEM">
+                            <rect key="frame" x="0.0" y="180" width="340" height="44"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="contact name" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NF7-GG-FNZ">
+                                    <rect key="frame" x="0.0" y="0.0" width="340" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="i5W-xy-v7v">
+                            <rect key="frame" x="0.0" y="240" width="340" height="44"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="assign to department" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lJi-mb-l40">
+                                    <rect key="frame" x="0.0" y="0.0" width="340" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="8Qw-Ix-pJk">
+                            <rect key="frame" x="0.0" y="300" width="340" height="44"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="assign to" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="rdy-Bd-N8S">
+                                    <rect key="frame" x="0.0" y="0.0" width="340" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="status" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="oIg-Sm-uis">
+                                    <rect key="frame" x="0.0" y="0.0" width="340" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="oIg-Sm-uis" firstAttribute="width" secondItem="rdy-Bd-N8S" secondAttribute="width" id="aWP-Q8-L7M"/>
+                            </constraints>
+                        </stackView>
+                        <stackView opaque="NO" contentMode="scaleToFill" spacing="8" translatesAutoresizingMaskIntoConstraints="NO" id="cck-10-r9D">
+                            <rect key="frame" x="0.0" y="360" width="340" height="44"/>
+                            <subviews>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="severity" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="BmY-Mf-NMY">
+                                    <rect key="frame" x="0.0" y="0.0" width="166" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="category" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="2I5-Yn-aiV">
+                                    <rect key="frame" x="174" y="0.0" width="166" height="44"/>
+                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                    <textInputTraits key="textInputTraits"/>
+                                </textField>
+                            </subviews>
+                            <constraints>
+                                <constraint firstItem="2I5-Yn-aiV" firstAttribute="width" secondItem="BmY-Mf-NMY" secondAttribute="width" id="7jM-zf-Jyf"/>
+                            </constraints>
+                        </stackView>
+                    </subviews>
+                    <constraints>
+                        <constraint firstItem="dXD-UU-PoP" firstAttribute="height" relation="greaterThanOrEqual" secondItem="pSY-Ux-oSb" secondAttribute="height" id="0ic-65-9ay"/>
+                        <constraint firstItem="cck-10-r9D" firstAttribute="height" secondItem="i5W-xy-v7v" secondAttribute="height" id="Dbg-DS-Z77"/>
+                        <constraint firstItem="dXD-UU-PoP" firstAttribute="height" relation="lessThanOrEqual" secondItem="pSY-Ux-oSb" secondAttribute="height" multiplier="4" id="RTt-FH-AZu"/>
+                        <constraint firstItem="i5W-xy-v7v" firstAttribute="height" secondItem="KgX-eD-UEM" secondAttribute="height" id="cNo-xR-J9a"/>
+                        <constraint firstItem="cck-10-r9D" firstAttribute="height" secondItem="8Qw-Ix-pJk" secondAttribute="height" id="diS-1L-yBV"/>
+                        <constraint firstItem="KgX-eD-UEM" firstAttribute="height" secondItem="pb6-bq-95z" secondAttribute="height" id="gwv-jv-XcD"/>
+                        <constraint firstItem="pb6-bq-95z" firstAttribute="height" secondItem="pSY-Ux-oSb" secondAttribute="height" id="hhV-Th-r7B"/>
+                    </constraints>
+                </stackView>
+            </subviews>
+            <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+            <constraints>
+                <constraint firstItem="rwd-R4-RRt" firstAttribute="leading" secondItem="iN0-l3-epB" secondAttribute="leading" constant="8" id="5dC-2h-dyU"/>
+                <constraint firstAttribute="trailing" secondItem="rwd-R4-RRt" secondAttribute="trailing" constant="8" id="PNo-CR-ZyE"/>
+                <constraint firstItem="rwd-R4-RRt" firstAttribute="top" secondItem="1QG-wT-RDZ" secondAttribute="top" constant="16" id="z6x-6j-tIY"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <viewLayoutGuide key="safeArea" id="1QG-wT-RDZ"/>
+            <point key="canvasLocation" x="753.62318840579712" y="464.0625"/>
+        </view>
+    </objects>
+</document>

@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="5k1-ag-zop">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Message-->
+        <scene sceneID="ttt-D1-VOV">
+            <objects>
+                <viewController title="Message" id="oYA-pp-5zx" customClass="MessageViewController" customModule="TurboTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="luI-N5-2E5">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreen" translatesAutoresizingMaskIntoConstraints="NO" id="EFp-CJ-0gD">
+                                <rect key="frame" x="0.0" y="88" width="414" height="725"/>
+                            </imageView>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Coming Soon" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="UKD-NT-jUg">
+                                <rect key="frame" x="115.5" y="430" width="183" height="36"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="30"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ZcV-cp-JeP">
+                                <rect key="frame" x="184" y="200" width="46" height="30"/>
+                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+                                <state key="normal" title="Button"/>
+                                <connections>
+                                    <action selector="btn:" destination="oYA-pp-5zx" eventType="touchUpInside" id="XuA-03-yP9"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="bottomMargin" secondItem="EFp-CJ-0gD" secondAttribute="bottom" id="TYp-fc-vTk"/>
+                            <constraint firstItem="EFp-CJ-0gD" firstAttribute="left" secondItem="ciU-R0-XcZ" secondAttribute="left" id="jIk-36-Dfu"/>
+                            <constraint firstItem="UKD-NT-jUg" firstAttribute="centerY" secondItem="luI-N5-2E5" secondAttribute="centerY" id="njW-C9-mMY"/>
+                            <constraint firstItem="UKD-NT-jUg" firstAttribute="centerX" secondItem="luI-N5-2E5" secondAttribute="centerX" id="x6w-5q-Xhr"/>
+                            <constraint firstItem="EFp-CJ-0gD" firstAttribute="top" secondItem="ciU-R0-XcZ" secondAttribute="top" id="xXB-T5-I7B"/>
+                            <constraint firstAttribute="right" secondItem="EFp-CJ-0gD" secondAttribute="right" id="ySn-pO-R6v"/>
+                        </constraints>
+                        <viewLayoutGuide key="safeArea" id="ciU-R0-XcZ"/>
+                    </view>
+                    <navigationItem key="navigationItem" id="QKs-YS-brX"/>
+                    <connections>
+                        <outlet property="label" destination="UKD-NT-jUg" id="TK0-IV-Gca"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="lgb-11-xPO" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1047.8260869565217" y="112.5"/>
+        </scene>
+        <!--Message-->
+        <scene sceneID="sUn-SI-SB5">
+            <objects>
+                <navigationController automaticallyAdjustsScrollViewInsets="NO" id="5k1-ag-zop" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Message" image="message.fill" id="TK1-Id-uqZ"/>
+                    <toolbarItems/>
+                    <simulatedTabBarMetrics key="simulatedBottomBarMetrics"/>
+                    <navigationBar key="navigationBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="ffW-Jj-zAy">
+                        <rect key="frame" x="0.0" y="44" width="414" height="44"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                    </navigationBar>
+                    <nil name="viewControllers"/>
+                    <connections>
+                        <segue destination="oYA-pp-5zx" kind="relationship" relationship="rootViewController" id="7EK-jl-0SH"/>
+                    </connections>
+                </navigationController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dtq-4z-1PE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="137.68115942028987" y="112.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchScreen" width="200" height="400"/>
+        <image name="message.fill" width="20" height="20"/>
+    </resources>
+</document>

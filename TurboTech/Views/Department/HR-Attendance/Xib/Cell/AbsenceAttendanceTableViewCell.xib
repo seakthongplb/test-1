@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097.2" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="absenceAttendanceCellItem" rowHeight="98" id="KGk-i7-Jjw" customClass="AbsenceAttendanceTableViewCell" customModule="TurboTech" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="486" height="98"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" ambiguous="YES" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="486" height="98"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="PnU-JO-NUX">
+                        <rect key="frame" x="10" y="10" width="466" height="75"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="n68-d7-7rK">
+                                <rect key="frame" x="0.0" y="0.0" width="14" height="75"/>
+                                <color key="backgroundColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                            </view>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Sov Sothea" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Dub-fv-Cbh">
+                                <rect key="frame" x="34" y="0.0" width="432" height="75"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <button hidden="YES" opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="qV3-GA-CpI">
+                                <rect key="frame" x="406" y="15.5" width="44" height="44"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="44" id="SIC-e4-lOe"/>
+                                    <constraint firstAttribute="width" secondItem="qV3-GA-CpI" secondAttribute="height" multiplier="1:1" id="tPS-R5-HCI"/>
+                                </constraints>
+                                <state key="normal" image="check-square-circle"/>
+                                <connections>
+                                    <action selector="editPress:" destination="KGk-i7-Jjw" eventType="touchUpInside" id="DDf-mk-DRY"/>
+                                </connections>
+                            </button>
+                        </subviews>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="75" id="2FS-wh-SMH"/>
+                            <constraint firstItem="qV3-GA-CpI" firstAttribute="centerY" secondItem="PnU-JO-NUX" secondAttribute="centerY" id="35P-9h-wuk"/>
+                            <constraint firstAttribute="trailing" secondItem="Dub-fv-Cbh" secondAttribute="trailing" id="Bkn-gD-cus"/>
+                            <constraint firstItem="Dub-fv-Cbh" firstAttribute="top" secondItem="PnU-JO-NUX" secondAttribute="top" id="Jhx-aU-lkq"/>
+                            <constraint firstAttribute="bottom" secondItem="n68-d7-7rK" secondAttribute="bottom" id="U1w-4f-LO8"/>
+                            <constraint firstItem="n68-d7-7rK" firstAttribute="width" secondItem="PnU-JO-NUX" secondAttribute="width" multiplier="0.03" id="Vng-lP-45Y"/>
+                            <constraint firstItem="n68-d7-7rK" firstAttribute="leading" secondItem="PnU-JO-NUX" secondAttribute="leading" id="WXd-ON-Cqn"/>
+                            <constraint firstAttribute="bottom" secondItem="Dub-fv-Cbh" secondAttribute="bottom" id="X88-tV-tsZ"/>
+                            <constraint firstItem="Dub-fv-Cbh" firstAttribute="leading" secondItem="n68-d7-7rK" secondAttribute="trailing" constant="20" id="Zmu-TW-edD"/>
+                            <constraint firstAttribute="trailing" secondItem="qV3-GA-CpI" secondAttribute="trailing" constant="16" id="hfZ-rS-ZFX"/>
+                            <constraint firstItem="n68-d7-7rK" firstAttribute="top" secondItem="PnU-JO-NUX" secondAttribute="top" id="rLd-bz-ili"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="PnU-JO-NUX" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="10" id="4vh-8Y-wGQ"/>
+                    <constraint firstItem="PnU-JO-NUX" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="10" id="E7X-xE-wPR"/>
+                    <constraint firstAttribute="trailing" secondItem="PnU-JO-NUX" secondAttribute="trailing" constant="10" id="Mdt-MQ-e4G"/>
+                    <constraint firstAttribute="bottom" secondItem="PnU-JO-NUX" secondAttribute="bottom" constant="10" id="pRS-qt-d3W"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="coverAbsenceAttendanceViewCellOutlet" destination="PnU-JO-NUX" id="2WO-h9-eSZ"/>
+                <outlet property="coverColorAbsenceAttendanceViewOutlet" destination="n68-d7-7rK" id="hs7-Di-7bV"/>
+                <outlet property="editButton" destination="qV3-GA-CpI" id="YPs-8w-dKc"/>
+                <outlet property="lbNameAbsenceOutlet" destination="Dub-fv-Cbh" id="z72-vW-ueY"/>
+            </connections>
+            <point key="canvasLocation" x="545" y="125"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="check-square-circle" width="128" height="128"/>
+    </resources>
+</document>

@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="17701" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES" initialViewController="yCw-4b-gPx">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="17703"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <scenes>
+        <!--Tab Bar Controller-->
+        <scene sceneID="m1F-iz-xBg">
+            <objects>
+                <tabBarController storyboardIdentifier="MainViewControllerID" automaticallyAdjustsScrollViewInsets="NO" id="yCw-4b-gPx" sceneMemberID="viewController">
+                    <tabBar key="tabBar" contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" id="CMW-1K-v1i">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="49"/>
+                        <autoresizingMask key="autoresizingMask"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </tabBar>
+                    <connections>
+                        <segue destination="RAO-A9-FE6" kind="relationship" relationship="viewControllers" id="w7h-H0-oJ6"/>
+                        <segue destination="HV4-BU-jlL" kind="relationship" relationship="viewControllers" id="Tzq-IT-gPn"/>
+                        <segue destination="SXe-LK-JPe" kind="relationship" relationship="viewControllers" id="JUi-Hv-P0C"/>
+                        <segue destination="6gL-8Q-E2t" kind="relationship" relationship="viewControllers" id="Ewq-7y-2TF"/>
+                    </connections>
+                </tabBarController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="qy1-EE-86b" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="138" y="891"/>
+        </scene>
+        <!--HomeStoryboard-->
+        <scene sceneID="YDs-G2-FZC">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="HomeStoryboardID" storyboardName="HomeStoryboard" id="RAO-A9-FE6" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="uaf-5E-CsL"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="vGD-c0-p78" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-314" y="1305"/>
+        </scene>
+        <!--LocationsStoryboard-->
+        <scene sceneID="O49-3X-ZjZ">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="LocationsStoryboardID" storyboardName="LocationsStoryboard" id="HV4-BU-jlL" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="MwN-JD-W9P"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="wsP-Al-6xR" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="-9" y="1305"/>
+        </scene>
+        <!--Coming Soon View Controller-->
+        <scene sceneID="gPw-0G-5AY">
+            <objects>
+                <viewController storyboardIdentifier="ComingSoonViewControllerID" id="qkA-Im-3hQ" customClass="ComingSoonViewController" customModule="TurboTech" customModuleProvider="target" sceneMemberID="viewController">
+                    <view key="view" contentMode="scaleToFill" id="xpV-gC-Sgd">
+                        <rect key="frame" x="0.0" y="0.0" width="414" height="896"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="launchScreen1" translatesAutoresizingMaskIntoConstraints="NO" id="IDs-LY-Ple">
+                                <rect key="frame" x="0.0" y="44" width="414" height="852"/>
+                            </imageView>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="QZc-Fz-qB1">
+                                <rect key="frame" x="0.0" y="44" width="414" height="818"/>
+                                <subviews>
+                                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="coming soon" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="H0P-Df-Zco">
+                                        <rect key="frame" x="0.0" y="0.0" width="414" height="818"/>
+                                        <fontDescription key="fontDescription" type="system" pointSize="32"/>
+                                        <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                        <nil key="highlightedColor"/>
+                                    </label>
+                                </subviews>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="trailing" secondItem="H0P-Df-Zco" secondAttribute="trailing" id="04i-RU-qMg"/>
+                                    <constraint firstItem="H0P-Df-Zco" firstAttribute="top" secondItem="QZc-Fz-qB1" secondAttribute="top" id="aac-gj-3Ea"/>
+                                    <constraint firstItem="H0P-Df-Zco" firstAttribute="leading" secondItem="QZc-Fz-qB1" secondAttribute="leading" id="ebG-yn-iQI"/>
+                                    <constraint firstAttribute="bottom" secondItem="H0P-Df-Zco" secondAttribute="bottom" id="ys3-Tb-e2Y"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <viewLayoutGuide key="safeArea" id="iOO-br-57h"/>
+                        <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                        <constraints>
+                            <constraint firstItem="iOO-br-57h" firstAttribute="trailing" secondItem="QZc-Fz-qB1" secondAttribute="trailing" id="1jb-FX-5gm"/>
+                            <constraint firstItem="QZc-Fz-qB1" firstAttribute="leading" secondItem="iOO-br-57h" secondAttribute="leading" id="7Ol-MX-Inp"/>
+                            <constraint firstAttribute="bottom" secondItem="IDs-LY-Ple" secondAttribute="bottom" id="CN5-Dd-5lm"/>
+                            <constraint firstItem="QZc-Fz-qB1" firstAttribute="top" secondItem="iOO-br-57h" secondAttribute="top" id="Dly-Wi-fjp"/>
+                            <constraint firstItem="iOO-br-57h" firstAttribute="trailing" secondItem="IDs-LY-Ple" secondAttribute="trailing" id="Hcd-Zc-xV3"/>
+                            <constraint firstItem="IDs-LY-Ple" firstAttribute="top" secondItem="iOO-br-57h" secondAttribute="top" id="P1o-6o-MEW"/>
+                            <constraint firstItem="iOO-br-57h" firstAttribute="bottom" secondItem="QZc-Fz-qB1" secondAttribute="bottom" id="TFV-jt-taJ"/>
+                            <constraint firstItem="IDs-LY-Ple" firstAttribute="leading" secondItem="iOO-br-57h" secondAttribute="leading" id="heE-TG-HB1"/>
+                        </constraints>
+                    </view>
+                    <connections>
+                        <outlet property="comingSoonLabel" destination="H0P-Df-Zco" id="bQe-i3-X2b"/>
+                    </connections>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="IEo-pN-hOE" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1432" y="891"/>
+        </scene>
+        <!--AboutUsStoryboard-->
+        <scene sceneID="Exf-5N-WBy">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="AboutUsStoryboardID" storyboardName="AboutUsStoryboard" id="6gL-8Q-E2t" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="G9q-Rf-JLh"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Dht-MN-Ijc" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="580" y="1305"/>
+        </scene>
+        <!--MessageStoryboard-->
+        <scene sceneID="dA6-ze-N05">
+            <objects>
+                <viewControllerPlaceholder storyboardIdentifier="MessageStoryboardID" storyboardName="MessageStoryboard" id="JZr-rD-LSy" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="Kfq-Ek-61P"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="k2y-Gn-7Xn" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="261" y="1394"/>
+        </scene>
+        <!--DepartmentStoryboard-->
+        <scene sceneID="Wkj-eU-6lP">
+            <objects>
+                <viewControllerPlaceholder storyboardName="DepartmentStoryboard" id="SXe-LK-JPe" sceneMemberID="viewController">
+                    <tabBarItem key="tabBarItem" title="Item" id="eCk-uG-b38"/>
+                </viewControllerPlaceholder>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="c1q-zL-Rbj" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="283" y="1304"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="launchScreen1" width="1125" height="2436"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+    </resources>
+</document>

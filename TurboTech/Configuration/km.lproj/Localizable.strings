@@ -1,0 +1,261 @@
+/* 
+  Localiable.strings
+  TurboTech
+
+  Created by sq on 5/28/20.
+  Copyright © 2020 TurboTech. All rights reserved.
+*/
+
+// Department Type
+//"head quarters" = "ការិយាល័យកណ្តាល";
+//"Audit and Compliance" = "នាយកដ្ធាន";
+//"ict" = "";
+//"operation" = "";
+//"business" = "";
+//"finance" = "";
+
+// Tab Bar
+"home" = "ទំព័រដើម";
+"location" = "ទីតាំង";
+"message" = "ដំណឹង";
+"profile" = "អំពីខ្ញុំ";
+
+// Navigation
+"turbotech" = "ធើបូថេក";
+"product" = "ផលិតផល";
+"payment" = "ទូទាត់ប្រាក់";
+"help desk" = "បម្រើអតិថិជន";
+"speed test" = "ល្បឿនសេវាអ៊ីនធឺណេត";
+"scan qr" = "ស្កែន QR";
+"personal information" = "ព័ត៍មានផ្ទាល់ខ្លួន";
+"my attendance" = "វត្តមានរបស់ខ្ញុំ";
+"department" = "នាយកដ្ធាន";
+"language" = "ភាសា";
+"change" = "ផ្លាស់ប្តូរ";
+"logout" = "ចាកចេញ";
+"english" = "​ភាសាអង់គ្លេស";
+"khmer" = "ភាសាខ្មែរ";
+"back" = "ត្រលប់ក្រោយ";
+
+
+"Enable Location Service" = "ដំណើរការ សេវាកម្មទីកន្លែង";
+"Please go to Settings and turn on Location permissions" = "សូមចូលទៅកាន់ កន្លែងផ្លាស់ប្តូរ និងបើកដំណើរការ សេវាកម្មទីកន្លែង";
+"Settings" = "កន្លែងផ្លាស់ប្តូរ";
+
+
+"Cancel" = "បដិសេធ";
+"Cannot Get Current Location" = "មិនអាចទាញយកទីតាំងបច្ចុប្បន្នភាព";
+"Please go to setting and enable it." = "សូមចូលទៅកាន់កន្លែងផ្លាស់ប្តូរ និងបើកដំណើរការ សេវាទីកន្លែង";
+
+// Internet Connection
+"No Internet Connection" = "អ្នកមិនមានការតភ្ជាប់ទេ";
+"Check Your Connection please!" = "សូមភ្ជាប់ទៅកាន់អ៊ីនធឺនេត";
+
+
+// Message
+"Coming Soon" = "មកដល់ឆាប់ៗ";
+
+
+// Customer Service
+"Thanks For Your Us Report Problem" = "អរគុណសម្រាប់ការចូលរួមបញ្ចេញយោបល់";
+"selectedText" = "ជ្រើសរើស បញ្ហា";
+"problem" = "បញ្ហា";
+"problem complain" = "លើកឡើងនូវ បញ្ហា";
+"problem type" = "ប្រភេទនៃបញ្ហា";
+"problem detail" = "បញ្ជាក់បន្ថែមលើបញ្ហា";
+"submit" = "ដាក់ស្នើ";
+
+// CRM
+"first name" = "នាមខ្លួន";
+"last name" = "គោត្តនាម";
+"email" = "អុីម៉ែល";
+"phone number" = "លេខទូរស័ព្ទ";
+"province / city" = "ខេត្ត / ក្រុង";
+"district / khan" = "ស្រុក / ខណ្ឌ";
+"commune / sangkat" = "ឃុំ / សង្កាត់";
+"village" = "ភូមិ";
+"home, street" = "ផ្ទះលេខ / ផ្លូវលេខ";
+"choose our internet package" = "ជ្រើសរើសកញ្ចប់សេវាកម្ម";
+"share location" = "ផ្ញើរទីកន្លែង";
+"register" = "ចុះឈ្មោះ";
+"female" = "ស្រី";
+"male" = "ប្រុស";
+"lead" = "Lead";
+"converted lead" = "Lead បានប្តូរ";
+"unconverted lead" = "Lead មិនទាន់បានប្តូរ";
+"total lead" = "Lead សរុប";
+"create lead" = "បង្កើត Lead";
+"lead information" = "ព័ត៌មាន Lead";
+"company name" = "ឈ្មោះក្រុមហ៊ុន";
+"customer name" = "ឈ្មោះអតិថិជន";
+"vat type" = "ប្រភេទ Vat";
+"customer type" = "ប្រភេទ ភ្ញៀរ";
+"customer rate" = "ប្រភេទ Rate";
+"industry" = "អាជីវកម្ម";
+"assign to" = "ផ្តល់អោយ";
+"lead source" = "ប្រភព Lead";
+"branch" = "សាខា";
+"contact information" = "ព័ត៌មានទំនាក់ទំនង";
+"contact email" = "ទំនាក់ទំនង Email";
+"position" = "ឋាន:";
+"address" = "អាស័យដ្ឋាន";
+"home number" = "ផ្ទះលេខ";
+"street number" = "ផ្លូវលេខ";
+"choose location" = "ជ្រើសរើសទីតាំង";
+"save" = "រក្សាទុក";
+"next" = "បន្ទាប់";
+"previous" = "ត្រលប់ក្រោយ";
+"cancel" = "បដិសេធ";
+"address information" = "ព័ត៌មានអាសយដ្ឋាន";
+"edit status" = "កែប្រែ Status";
+"change lead status" = "ប្តូរ Lead Status";
+"add todo" = "បន្ថែម Todo";
+"successfully" = "ជោគជ័យ";
+"success" = "ជោគជ័យ";
+"add lead" = "បន្ថែម Lead";
+"short form" = "ទម្រង់ខ្លី";
+"long form" = "ទម្រង់វែង";
+"lead history" = "ប្រវត្ត Lead";
+"history" = "ប្រវត្ត";
+"lead information" = "ព័ត៌មានរបស់ Lead";
+"primary phone" = "លេខទូរស័ព្ទចម្បង";
+"mobile phone" = "លេខទូរស័ព្ទដៃ";
+"fetch lead" = "ទាញយក Lead";
+
+// Product
+"apply" = "ដាក់ស្នើរ";
+"done" = "រួចរាល់";
+"search package ..." = "ស្វែងរកសេវាកម្ម ...";
+"register successfully" = "ចុះឈ្មោះបានជោគជ័យ";
+"please try again !" = "សួមព្យាយាមម្តងទៀត";
+
+
+// Profile
+"curLanguage" = "ភាសាខ្មែរ";
+"information" = "ព័ត៌មាន";
+"business" = "អាជីវកម្ម";
+"admin" = "រដ្ឋបាល";
+"hr" = "ធនធានមនុស្ស";
+"finance" = "ហិរញ្ញវត្ថុ";
+"attendance" = "បញ្ជីវត្តមាន";
+"setting" = "ការកំណត់";
+"operation" = "ប្រតិបត្តិការ";
+"ict" = "បច្ចេកវិទ្យាព័ត៌មានវិទ្យា";
+"audit" = "សវនកម្ម";
+"change password" = "ផ្លាស់ប្តូរពាក្យសម្ងាត់";
+"choose language" = "ជ្រើសរើសភាសា";
+"old password" = "ពាក្យសម្ងាត់ចាស់";
+"new password" = "ពាក្យសម្ងាត់ថ្មី";
+"confirm new password" = "ពាក្យសម្ងាត់ថ្មីម្តងទៀត";
+"confirm" = "យល់ព្រម";
+"old Password worng" = "ខុសពាក្យសម្ងាត់ចាស់";
+
+
+// Sale
+"saleProduct" = "ផលិតផល";
+"salePop" = "POP";
+"saleDevice" = "ឧបករណ៍";
+"saleCrm" = "CRM";
+
+// Attendance
+"hello" = "Hello ,";
+"report" = "របាយការណ៌";
+"present" = "វត្តមាន";
+"morning" = "ពេលព្រឹក";
+"afternoon" = "ពេលរសៀល";
+"today" = "ថ្ងៃនេះ";
+"overall" = "ទាំងអស់";
+"fingerprint" = "ដោយស្នាមមេដៃ";
+"face" = "ដោយមុខ";
+"late" = "យឺត";
+"absence" = "អវត្តមាន";
+"permission" = "សុំច្បាប់";
+"late staff report" = "របាយការណ៌បុគ្គលិកមកយឺត";
+"early staff report" = "របាយការណ៌បុគ្គលិកអវត្តមាន";
+"absence staff report" = "របាយការណ៌បុគ្គលិកមកលឿន";
+"hour" = "ម៉ោង";
+"minute" = "នាទី";
+"second" = "វិនាទី";
+"day" = "ថ្ងៃ";
+"date" = "កាលបរិច្ជេទ";
+"check in" = "ស្កេនចូល";
+"check out" = "ស្កេនចេញ";
+"this week" = "សប្តាហ៍នេះ";
+"overall" = "ទាំងអស់";
+"early" = "លឿន";
+"absent" = "អវត្តមាន";
+"shift" = "វេន";
+"approved by" = "អនុញ្ញាតដោយ";
+"update by" = "កត់ត្រាដោយ";
+
+// Ticket
+"subject" = "ប្រធានបទ";
+"contact" = "ទំនាក់ទំនង";
+"organization" = "អង្គភាព";
+"severity" = "ធ្ងន់ធ្ងរ";
+"category" = "ប្រភេទ";
+"create" = "បង្កើត";
+"create ticket" = "បង្កើតសំបុត្រ";
+"ticket" = "សំបុត្រ";
+"ticket dashboard" = "Ticket Dashboard";
+"ticket by department" = "Ticket by Department";
+"ticket by status" = "Ticket By Status";
+"open" = "Open";
+"progress" = "Progress";
+"closed" = "Closed";
+"wait for response" = "Wait for Response";
+"organization name" = "Organization Name";
+"contact name" = "Contact Name";
+"assign to department" = "Assign to Department";
+"create new ticket" = "បង្កើត Ticket";
+"update ticket" = "កែប្រែ Ticket";
+"update" = "កែប្រែ";
+"fetch ticket" = "ទាញយក Ticket";
+
+// Login
+"username" = "ឈ្មោះអ្នកប្រើប្រាស់";
+"password" = "ពាក្យសម្ងាត់";
+"login" = "ចូល";
+"please verify your code" = "សូមផ្ទៀងផ្ទាត់លេខកូដរបស់អ្នក";
+"verify code will send to" = "ការផ្ទៀងផ្ទាត់លេខកូដ នឹងផ្ញើរទៅកាន់លេខ ";
+
+// Setting
+
+// Strategic Posture
+"strategic posture" = "Vission Mission Value";
+"mission" = "បេសកកម្ម";
+"vision" = "ទស្សនះវិស័យ";
+"value" = "គុណតម្លៃរួម";
+"strategic posture mission" = "ផ្តល់នូវសេវាកម្ម Internet, Data Center, Software Solutions ជាមួយបច្ចេកវិទ្យាចុងក្រោយប្រកបដោយ គុណភាពល្អ សេវាកម្មរហ័សទាន់ចិត្ត និងទំនុកចិត្តខ្ពស់ ព្រមទាំងប្រកាន់ភ្ជាប់នូវក្រមសីលធម៌ វិន័យ ច្បាប់ សង្គម និងបរិស្ថាន។";
+"strategic posture vision" = "ជាក្រុមហ៊ុនផ្តល់សេវាកម្មបច្ចេកវិទ្យាព័ត៌មានសម្បូរបែប ឈានមុខគេនៅព្រះរាជាណាចក្រកម្ពុជា។";
+"strategic posture value" = "ក្រុមហ៊ុនធើបូថេក ឯ.ក បាននឹងកំពុងផ្តល់សេវាកម្មដល់អតិថិជន និងប្រឹងប្រែងប្តេជ្ញាចិត្តដើម្បីសម្រេចបាននូវគុណតម្លៃរួមដូចខាងក្រោម៖";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+// MONTHS
+"january" = "មករា";
+"february" = "កុម្ភះ";
+"march" = "មីនា";
+"april" = "មេសា";
+"may" = "ឧសភា";
+"june" = "មិថុនា";
+"july" = "កក្កដា";
+"august" = "សីហា";
+"september" = "កញ្ញា";
+"october" = "តុលា";
+"november" = "វិច្ជិកា";
+"december" = "ធ្នូ";

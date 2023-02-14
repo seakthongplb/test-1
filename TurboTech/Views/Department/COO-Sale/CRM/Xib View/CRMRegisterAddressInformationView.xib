@@ -1,0 +1,205 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="18122" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="18093"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="System colors in document resources" minToolsVersion="11.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner" customClass="CRMRegisterAddressInformationView" customModule="TurboTech" customModuleProvider="target">
+            <connections>
+                <outlet property="communeTextField" destination="CZi-9o-w1a" id="wuV-sN-VMN"/>
+                <outlet property="contentView" destination="iN0-l3-epB" id="pc5-Bf-MRQ"/>
+                <outlet property="districtTextField" destination="SNN-no-NrR" id="izk-7b-cub"/>
+                <outlet property="homeNumberTextField" destination="LBZ-wo-bHK" id="OY5-hH-mus"/>
+                <outlet property="provinceTextField" destination="xEp-cM-Sty" id="7d7-Oa-lXd"/>
+                <outlet property="scrollView" destination="P2S-lm-54s" id="qqJ-1w-c38"/>
+                <outlet property="shareLocationLgButton" destination="6Pd-E8-wzQ" id="zq9-he-0A8"/>
+                <outlet property="streetNumberTextField" destination="NdP-uW-EBf" id="3Cu-bq-wY7"/>
+                <outlet property="titleLabel" destination="klr-LE-ynY" id="H2C-BH-dsD"/>
+                <outlet property="villageTextField" destination="lhx-Ct-ybz" id="9yV-6h-QX0"/>
+            </connections>
+        </placeholder>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <view contentMode="scaleToFill" id="iN0-l3-epB">
+            <rect key="frame" x="0.0" y="0.0" width="400" height="473"/>
+            <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+            <subviews>
+                <scrollView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" alwaysBounceVertical="YES" translatesAutoresizingMaskIntoConstraints="NO" id="P2S-lm-54s">
+                    <rect key="frame" x="0.0" y="0.0" width="400" height="473"/>
+                    <subviews>
+                        <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="ZzN-vt-9vv">
+                            <rect key="frame" x="0.0" y="0.0" width="400" height="473"/>
+                            <subviews>
+                                <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="3hf-Fx-CFX">
+                                    <rect key="frame" x="16" y="8" width="368" height="344"/>
+                                    <subviews>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="z1f-dA-jpl">
+                                            <rect key="frame" x="0.0" y="0.0" width="368" height="44"/>
+                                            <subviews>
+                                                <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Address Information" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="klr-LE-ynY">
+                                                    <rect key="frame" x="0.0" y="0.0" width="368" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                    <nil key="textColor"/>
+                                                    <nil key="highlightedColor"/>
+                                                </label>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstAttribute="height" constant="44" id="r3a-7A-nHZ"/>
+                                            </constraints>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Je6-PL-Bmh">
+                                            <rect key="frame" x="0.0" y="60" width="368" height="44"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="province / city" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="xEp-cM-Sty">
+                                                    <rect key="frame" x="0.0" y="0.0" width="368" height="44"/>
+                                                    <constraints>
+                                                        <constraint firstAttribute="height" constant="44" id="YGu-ON-Vc3"/>
+                                                    </constraints>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="1wC-2F-oVP">
+                                            <rect key="frame" x="0.0" y="120" width="368" height="44"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="district / khan" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="SNN-no-NrR">
+                                                    <rect key="frame" x="0.0" y="0.0" width="368" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="332-Qv-SOu">
+                                            <rect key="frame" x="0.0" y="180" width="368" height="44"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="commune / sangkat" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="CZi-9o-w1a">
+                                                    <rect key="frame" x="0.0" y="0.0" width="176" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" enabled="NO" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="village" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="lhx-Ct-ybz">
+                                                    <rect key="frame" x="192" y="0.0" width="176" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="CZi-9o-w1a" firstAttribute="width" secondItem="lhx-Ct-ybz" secondAttribute="width" id="LkQ-hp-maM"/>
+                                            </constraints>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" spacing="16" translatesAutoresizingMaskIntoConstraints="NO" id="Maj-n6-0ek">
+                                            <rect key="frame" x="0.0" y="240" width="368" height="44"/>
+                                            <subviews>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="home number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="LBZ-wo-bHK">
+                                                    <rect key="frame" x="0.0" y="0.0" width="176" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" textContentType="address-line1"/>
+                                                </textField>
+                                                <textField opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="left" contentVerticalAlignment="center" borderStyle="roundedRect" placeholder="street number" textAlignment="natural" minimumFontSize="17" translatesAutoresizingMaskIntoConstraints="NO" id="NdP-uW-EBf">
+                                                    <rect key="frame" x="192" y="0.0" width="176" height="44"/>
+                                                    <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                    <textInputTraits key="textInputTraits" textContentType="address-line2"/>
+                                                </textField>
+                                            </subviews>
+                                            <constraints>
+                                                <constraint firstItem="LBZ-wo-bHK" firstAttribute="width" secondItem="NdP-uW-EBf" secondAttribute="width" id="EpT-nn-nto"/>
+                                            </constraints>
+                                        </stackView>
+                                        <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="Q22-e6-SDh">
+                                            <rect key="frame" x="0.0" y="300" width="368" height="44"/>
+                                            <subviews>
+                                                <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="6Pd-E8-wzQ" customClass="LGButton" customModule="LGButton">
+                                                    <rect key="frame" x="0.0" y="0.0" width="368" height="44"/>
+                                                    <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                                                    <userDefinedRuntimeAttributes>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                            <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="fullyRoundedCorners" value="YES"/>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="borderColor">
+                                                            <color key="value" systemColor="systemPinkColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="borderWidth">
+                                                            <real key="value" value="0.5"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="image" keyPath="leftImageSrc" value="pin"/>
+                                                        <userDefinedRuntimeAttribute type="string" keyPath="titleString" value="choose location"/>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                            <color key="value" white="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="leftImageColor">
+                                                            <color key="value" systemColor="systemRedColor"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="color" keyPath="leftIconColor">
+                                                            <color key="value" red="0.20784313730000001" green="0.67450980390000004" blue="0.88235294119999996" alpha="1" colorSpace="calibratedRGB"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="number" keyPath="titleFontSize">
+                                                            <real key="value" value="18"/>
+                                                        </userDefinedRuntimeAttribute>
+                                                        <userDefinedRuntimeAttribute type="boolean" keyPath="rightAligned" value="NO"/>
+                                                    </userDefinedRuntimeAttributes>
+                                                </view>
+                                            </subviews>
+                                        </stackView>
+                                    </subviews>
+                                    <constraints>
+                                        <constraint firstItem="1wC-2F-oVP" firstAttribute="height" secondItem="Je6-PL-Bmh" secondAttribute="height" id="1oq-Ka-5UZ"/>
+                                        <constraint firstItem="332-Qv-SOu" firstAttribute="height" secondItem="1wC-2F-oVP" secondAttribute="height" id="SOA-RL-FW1"/>
+                                        <constraint firstItem="Maj-n6-0ek" firstAttribute="height" secondItem="332-Qv-SOu" secondAttribute="height" id="ZIO-va-6JZ"/>
+                                        <constraint firstItem="Q22-e6-SDh" firstAttribute="height" secondItem="Maj-n6-0ek" secondAttribute="height" id="leK-Uo-ZUv"/>
+                                    </constraints>
+                                </stackView>
+                            </subviews>
+                            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+                            <constraints>
+                                <constraint firstItem="3hf-Fx-CFX" firstAttribute="top" secondItem="ZzN-vt-9vv" secondAttribute="top" constant="8" id="Wta-LO-oUg"/>
+                                <constraint firstAttribute="trailing" secondItem="3hf-Fx-CFX" secondAttribute="trailing" constant="16" id="fLL-Me-7f7"/>
+                                <constraint firstItem="3hf-Fx-CFX" firstAttribute="leading" secondItem="ZzN-vt-9vv" secondAttribute="leading" constant="16" id="iGU-PE-oRF"/>
+                            </constraints>
+                        </view>
+                    </subviews>
+                    <constraints>
+                        <constraint firstAttribute="trailing" secondItem="ZzN-vt-9vv" secondAttribute="trailing" id="bE7-4b-fM3"/>
+                        <constraint firstItem="ZzN-vt-9vv" firstAttribute="leading" secondItem="P2S-lm-54s" secondAttribute="leading" id="gqg-gf-xk6"/>
+                        <constraint firstItem="ZzN-vt-9vv" firstAttribute="top" secondItem="P2S-lm-54s" secondAttribute="top" id="mGL-zG-66J"/>
+                        <constraint firstAttribute="bottom" secondItem="ZzN-vt-9vv" secondAttribute="bottom" priority="250" id="psd-Fv-SQH"/>
+                    </constraints>
+                </scrollView>
+            </subviews>
+            <viewLayoutGuide key="safeArea" id="vUN-kp-3ea"/>
+            <color key="backgroundColor" systemColor="systemBackgroundColor"/>
+            <constraints>
+                <constraint firstItem="ZzN-vt-9vv" firstAttribute="height" secondItem="iN0-l3-epB" secondAttribute="height" priority="250" id="I0O-TD-jMt"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="trailing" secondItem="P2S-lm-54s" secondAttribute="trailing" id="ZBG-7V-ZPa"/>
+                <constraint firstItem="vUN-kp-3ea" firstAttribute="bottom" secondItem="P2S-lm-54s" secondAttribute="bottom" id="buC-xs-OAp"/>
+                <constraint firstItem="P2S-lm-54s" firstAttribute="leading" secondItem="vUN-kp-3ea" secondAttribute="leading" id="cIN-6f-RgQ"/>
+                <constraint firstItem="ZzN-vt-9vv" firstAttribute="width" secondItem="iN0-l3-epB" secondAttribute="width" id="ird-HL-tvh"/>
+                <constraint firstItem="P2S-lm-54s" firstAttribute="top" secondItem="iN0-l3-epB" secondAttribute="top" id="rYb-E8-gUP"/>
+            </constraints>
+            <freeformSimulatedSizeMetrics key="simulatedDestinationMetrics"/>
+            <point key="canvasLocation" x="124.6376811594203" y="154.35267857142856"/>
+        </view>
+    </objects>
+    <designables>
+        <designable name="6Pd-E8-wzQ">
+            <size key="intrinsicContentSize" width="10" height="10"/>
+        </designable>
+    </designables>
+    <resources>
+        <image name="pin" width="360" height="512"/>
+        <systemColor name="systemBackgroundColor">
+            <color white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+        </systemColor>
+        <systemColor name="systemPinkColor">
+            <color red="1" green="0.17647058823529413" blue="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+        <systemColor name="systemRedColor">
+            <color red="1" green="0.23137254901960785" blue="0.18823529411764706" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+        </systemColor>
+    </resources>
+</document>

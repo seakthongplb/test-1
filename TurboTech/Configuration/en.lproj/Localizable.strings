@@ -1,0 +1,261 @@
+/* 
+  Localiable.strings
+  TurboTech
+
+  Created by sq on 5/28/20.
+  Copyright © 2020 TurboTech. All rights reserved.
+*/
+
+// Department Type
+//"head quarters" = "";
+//"Audit and Compliance" = "";
+//"ict" = "";
+//"operation" = "";
+//"business" = "";
+//"finance" = "";
+
+// Tab Bar
+"home" = "Home";
+"location" = "Location";
+"message" = "Notification";
+"profile" = "Profile";
+
+// Navigation
+"turbotech" = "TURBOTECH";
+"product" = "Product";
+"payment" = "Payment";
+"help desk" = "Help Desk";
+"speed test" = "Speed Test";
+"scan qr" = "Scan QR";
+"personal information" = "Personal Information";
+"my attendance" = "My Attendance";
+"department" = "Department";
+"language" = "Language";
+"change" = "Change";
+"logout" = "Logout";
+"english" = "English";
+"khmer" = "Khmer";
+"back" = "Back";
+
+// Location
+"Enable Location Service" = "Enable Location Service";
+"Please go to Settings and turn on Location permissions" = "Please go to Settings and turn on Location permissions";
+"Settings" = "Settings";
+
+
+"Cancel" = "Cancel";
+"Cannot Get Current Location" = "Cannot Get Current Location";
+"Please go to setting and enable it." = "Please go to setting and enable it.";
+
+// Internet Connection
+"No Internet Connection" = "No Internet Connection";
+"Check Your Connection please!" = "Check Your Connection please!";
+
+
+// Message
+"Coming Soon" = "Coming Soon";
+
+
+// Customer Service
+"Thanks For Your Us Report Problem" = "Thanks For Your Us Report Problem";
+"selectedText" = "selectedText";
+"problem" = "Problem";
+"problem complain" = "Problem Complain";
+"problem type" = "Problem Type";
+"problem detail" = "Problem Description";
+"submit" = "Submit";
+
+// CRM
+"first name" = "First Name";
+"last name" = "Last Name";
+"email" = "Email";
+"phone number" = "Phone Number";
+"province / city" = "Province / City";
+"district / khan" = "District / Khan";
+"commune / sangkat" = "Commune / Sangkat";
+"village" = "Village";
+"home, street" = "Home, Street";
+"choose our internet package" = "Choose Our Internet Package";
+"share location" = "Share Location";
+"register" = "Register";
+"female" = "Female";
+"male" = "Male";
+"lead" = "Lead";
+"converted lead" = "Converted Lead";
+"unconverted lead" = "Unconverted Lead";
+"total lead" = "Total Lead";
+"create lead" = "Create Lead";
+"lead information" = "Lead Information";
+"company name" = "Company Name";
+"customer name" = "Customer Name";
+"vat type" = "Vat Type";
+"customer type" = "Customer Type";
+"customer rate" = "Customer Rate";
+"industry" = "Industry";
+"assign to" = "Assign to";
+"lead source" = "Lead Source";
+"branch" = "Branch";
+"contact information" = "Contact Information";
+"contact email" = "Contact Email";
+"position" = "Position";
+"address" = "Address";
+"home number" = "Home Number";
+"street number" = "Street Number";
+"choose location" = "Choose Location";
+"save" = "Save";
+"next" = "Next";
+"previous" = "Previous";
+"cancel" = "Cancel";
+"address information" = "Address Information";
+"edit status" = "Edit Status";
+"change lead status" = "Change Lead Status";
+"add todo" = "Add Todo";
+"successfully" = "Successfully";
+"success" = "Success";
+"add lead" = "Add Lead";
+"short form" = "Short Form";
+"long form" = "Long Form";
+"lead history" = "Lead History";
+"history" = "History";
+"lead information" = "Lead Information";
+"primary phone" = "Primary Phone";
+"mobile phone" = "Mobile Phone";
+"fetch lead" = "Fetch Lead";
+
+// Product
+"apply" = "Apply";
+"done" = "Done";
+"search package ..." = "Search Package ...";
+"register successfully" = "Register Successfully";
+"please try again !" = "Please Try Again !";
+
+
+// Profile
+"curLanguage" = "English";
+"information" = "User Information";
+"business" = "Business";
+"admin" = "Admin";
+"hr" = "HR";
+"finance" = "Finance";
+"attendance" = "Attendance";
+"operation" = "Operation";
+"ict" = "ICT";
+"audit" = "Audit";
+"setting" = "Setting";
+"change password" = "Change Password";
+"choose language" = "Choose Language";
+"old password" = "Old Password";
+"new password" = "New Password";
+"confirm new password" = "Confirm New Password";
+"confirm" = "Confirm";
+"old Password worng" = "Wrong Old Password";
+
+
+// Sale
+"saleProduct" = "Product";
+"salePop" = "POP";
+"saleDevice" = "Device";
+"saleCrm" = "CRM";
+
+// Attendance
+"hello" = "Hello ,";
+"report" = "Report";
+"present" = "Present";
+"morning" = "Morning";
+"afternoon" = "Afternoon";
+"today" = "Today";
+"overall" = "Overall";
+"fingerprint" = "Fingerprint";
+"face" = "Face";
+"late" = "Late";
+"absence" = "Absence";
+"permission" = "Permission";
+"late staff report" = "Late Staff Report";
+"early staff report" = "Early Staff Report";
+"absence staff report" = "Absence Staff Report";
+"hour" = "h";
+"minute" = "mn";
+"second" = "s";
+"day" = "day";
+"date" = "Date";
+"check in" = "Check In";
+"check out" = "Check Out";
+"this week" = "This Week";
+"overall" = "Overall";
+"early" = "Early";
+"absent" = "Absent";
+"shift" = "Shift";
+"approved by" = "Approved by";
+"update by" = "Add by";
+
+// Ticket
+"subject" = "Subject";
+"contact" = "Contact";
+"organization" = "Organization";
+"severity" = "Severity";
+"category" = "Category";
+"create" = "Create";
+"create ticket" = "Create Ticket";
+"ticket" = "Ticket";
+"ticket dashboard" = "Ticket Dashboard";
+"ticket by department" = "Ticket by Department";
+"ticket by status" = "Ticket By Status";
+"open" = "Open";
+"progress" = "Progress";
+"closed" = "Closed";
+"wait for response" = "Wait for Response";
+"organization name" = "Organization Name";
+"contact name" = "Contact Name";
+"assign to department" = "Assign to Department";
+"create new ticket" = "Create Ticket";
+"update ticket" = "Update Ticket";
+"update" = "Update";
+"fetch ticket" = "Fetch Ticket";
+
+// Login
+"username" = "Username";
+"password" = "Password";
+"login" = "Login";
+"please verify your code" = "Please Verify Your Code";
+"verify code will send to" = "Verify code will send to";
+
+// Setting
+
+// Strategic Posture
+"strategic posture" = "Vission Mission Value";
+"mission" = "Mission";
+"vision" = "Vision";
+"value" = "Core Value";
+"strategic posture mission" = "TURBOTECH Provides Internet, Data Center, Software Solusions to the public with the highest quality technology, fast and reliable service, and adheres to social and environment ethics.";
+"strategic posture vision" = "TURBOTECH is a leading information technology services provider in the Kingdom of Cambodia ";
+"strategic posture value" = "ក្រុមហ៊ុនធើបូថេក ឯ.ក បាននឹងកំពុងផ្តល់សេវាកម្មដល់អតិថិជន និងប្រឹងប្រែងប្តេជ្ញាចិត្តដើម្បីសម្រេចបាននូវគុណតម្លៃរួមដូចខាងក្រុម៖";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+"" = "";
+// MONTHS
+"january" = "January";
+"february" = "Febrary";
+"march" = "March";
+"april" = "April";
+"may" = "May";
+"june" = "June";
+"july" = "July";
+"august" = "August";
+"september" = "September";
+"october" = "October";
+"november" = "November";
+"december" = "December";

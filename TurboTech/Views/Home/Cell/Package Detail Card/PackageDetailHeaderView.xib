@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_5" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="PackageDetailHeaderViewID" rowHeight="166" id="KGk-i7-Jjw" customClass="PackageDetailHeaderView" customModule="TurboTech" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="431" height="166"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="431" height="166"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="gkW-3k-M7H">
+                        <rect key="frame" x="0.0" y="0.0" width="431" height="166"/>
+                        <subviews>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nSi-9C-cXr">
+                                <rect key="frame" x="16" y="16" width="399" height="21.666666666666671"/>
+                                <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="18"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <textView clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="scaleToFill" text="TEXT:" textAlignment="natural" translatesAutoresizingMaskIntoConstraints="NO" id="MN8-mY-PkA">
+                                <rect key="frame" x="32" y="53.666666666666664" width="367" height="94.333333333333343"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <fontDescription key="fontDescription" type="system" weight="medium" pointSize="14"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="sentences"/>
+                            </textView>
+                            <view contentMode="scaleToFill" insetsLayoutMarginsFromSafeArea="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EOD-hk-Tie">
+                                <rect key="frame" x="0.0" y="156" width="431" height="2"/>
+                                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="2" id="Qyn-eT-E3g"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstItem="nSi-9C-cXr" firstAttribute="top" secondItem="gkW-3k-M7H" secondAttribute="top" constant="16" id="13H-77-kHz"/>
+                            <constraint firstItem="MN8-mY-PkA" firstAttribute="leading" secondItem="gkW-3k-M7H" secondAttribute="leading" constant="32" id="2ei-hi-O1i"/>
+                            <constraint firstItem="MN8-mY-PkA" firstAttribute="top" secondItem="nSi-9C-cXr" secondAttribute="bottom" constant="16" id="3vc-iQ-MV9"/>
+                            <constraint firstAttribute="bottom" secondItem="EOD-hk-Tie" secondAttribute="bottom" constant="8" id="6qe-4e-hYq"/>
+                            <constraint firstAttribute="trailing" secondItem="EOD-hk-Tie" secondAttribute="trailing" id="AS9-ha-EcY"/>
+                            <constraint firstAttribute="trailing" secondItem="MN8-mY-PkA" secondAttribute="trailing" constant="32" id="D5C-mm-Xlx"/>
+                            <constraint firstItem="nSi-9C-cXr" firstAttribute="leading" secondItem="gkW-3k-M7H" secondAttribute="leading" constant="16" id="Nnu-ox-2c9"/>
+                            <constraint firstItem="EOD-hk-Tie" firstAttribute="top" secondItem="MN8-mY-PkA" secondAttribute="bottom" constant="8" id="R59-GV-yaI"/>
+                            <constraint firstItem="EOD-hk-Tie" firstAttribute="leading" secondItem="gkW-3k-M7H" secondAttribute="leading" id="d47-Aw-0EW"/>
+                            <constraint firstAttribute="trailing" secondItem="nSi-9C-cXr" secondAttribute="trailing" constant="16" id="twC-QE-MHR"/>
+                        </constraints>
+                    </view>
+                </subviews>
+                <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                <constraints>
+                    <constraint firstAttribute="trailing" secondItem="gkW-3k-M7H" secondAttribute="trailing" id="3u8-nU-leX"/>
+                    <constraint firstItem="gkW-3k-M7H" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="Bnb-dp-K2u"/>
+                    <constraint firstAttribute="bottom" secondItem="gkW-3k-M7H" secondAttribute="bottom" id="IYR-jM-cZc"/>
+                    <constraint firstItem="gkW-3k-M7H" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="gU6-o2-41E"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="dotView" destination="EOD-hk-Tie" id="gO3-xC-RnO"/>
+                <outlet property="noteTextView" destination="MN8-mY-PkA" id="CJZ-SA-5OZ"/>
+                <outlet property="titleLabel" destination="nSi-9C-cXr" id="D7c-Y1-nQi"/>
+            </connections>
+            <point key="canvasLocation" x="136.95652173913044" y="51.5625"/>
+        </tableViewCell>
+    </objects>
+</document>

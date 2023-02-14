@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>FIREBASE_ANALYTICS_COLLECTION_ENABLED</key>
+	<true/>
+	<key>CLIENT_ID</key>
+	<string>558987779054-0k8dev8jcuv6o2j0rc3k0nnqpdkbkvhc.apps.googleusercontent.com</string>
+	<key>REVERSED_CLIENT_ID</key>
+	<string>com.googleusercontent.apps.558987779054-0k8dev8jcuv6o2j0rc3k0nnqpdkbkvhc</string>
+	<key>ANDROID_CLIENT_ID</key>
+	<string>558987779054-q3mqq15lvrse2fuu8gpmuv7ajidn994r.apps.googleusercontent.com</string>
+	<key>API_KEY</key>
+	<string>AIzaSyDhU0bQuYVB10BrVXgKthlVhPi-GwRCANw</string>
+	<key>GCM_SENDER_ID</key>
+	<string>558987779054</string>
+	<key>PLIST_VERSION</key>
+	<string>1</string>
+	<key>BUNDLE_ID</key>
+	<string>com.turbotech.turbotech-ios</string>
+	<key>PROJECT_ID</key>
+	<string>turbotechproject-1700a</string>
+	<key>STORAGE_BUCKET</key>
+	<string>turbotechproject-1700a.appspot.com</string>
+	<key>IS_ADS_ENABLED</key>
+	<false/>
+	<key>IS_ANALYTICS_ENABLED</key>
+	<false/>
+	<key>IS_APPINVITE_ENABLED</key>
+	<true/>
+	<key>IS_GCM_ENABLED</key>
+	<true/>
+	<key>IS_SIGNIN_ENABLED</key>
+	<true/>
+	<key>GOOGLE_APP_ID</key>
+	<string>1:558987779054:ios:d8e8215a4db3b8a5200cff</string>
+	<key>DATABASE_URL</key>
+	<string>https://turbotechproject-1700a.firebaseio.com</string>
+</dict>
+</plist>

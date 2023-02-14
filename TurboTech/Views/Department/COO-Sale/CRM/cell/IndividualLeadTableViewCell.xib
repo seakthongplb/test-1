@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="16097" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="16087"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="IndividualLeadTableViewCellID" rowHeight="51" id="KGk-i7-Jjw" customClass="IndividualLeadTableViewCell" customModule="TurboTech" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="289" height="51"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="289" height="51"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <stackView opaque="NO" contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="jrO-Vp-sbJ">
+                        <rect key="frame" x="0.0" y="1" width="289" height="49"/>
+                        <subviews>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="GDt-Yz-oEf">
+                                <rect key="frame" x="0.0" y="0.0" width="8" height="49"/>
+                                <color key="backgroundColor" systemColor="systemGreenColor" red="0.20392156859999999" green="0.78039215689999997" blue="0.34901960780000002" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="8" id="tUA-HN-xaT"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="0z9-bU-G7F">
+                                <rect key="frame" x="8" y="0.0" width="209" height="49"/>
+                                <subviews>
+                                    <stackView opaque="NO" contentMode="scaleToFill" axis="vertical" spacing="2" translatesAutoresizingMaskIntoConstraints="NO" id="hah-cY-S8d">
+                                        <rect key="frame" x="8" y="5" width="193" height="39.5"/>
+                                        <subviews>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="EDn-ii-RuE">
+                                                <rect key="frame" x="0.0" y="0.0" width="193" height="20.5"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Bwd-F7-aMl">
+                                                <rect key="frame" x="0.0" y="22.5" width="193" height="17"/>
+                                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                                <nil key="textColor"/>
+                                                <nil key="highlightedColor"/>
+                                            </label>
+                                        </subviews>
+                                    </stackView>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="hah-cY-S8d" firstAttribute="centerY" secondItem="0z9-bU-G7F" secondAttribute="centerY" id="8lX-8j-hbL"/>
+                                    <constraint firstAttribute="trailing" secondItem="hah-cY-S8d" secondAttribute="trailing" constant="8" id="ADA-cP-iRz"/>
+                                    <constraint firstItem="hah-cY-S8d" firstAttribute="leading" secondItem="0z9-bU-G7F" secondAttribute="leading" constant="8" id="NAc-y1-Vvb"/>
+                                </constraints>
+                            </view>
+                            <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="H6V-Ve-OLn">
+                                <rect key="frame" x="217" y="0.0" width="72" height="49"/>
+                                <subviews>
+                                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="nps-RZ-Sdp" customClass="LGButton" customModule="LGButton">
+                                        <rect key="frame" x="0.0" y="0.0" width="72" height="49"/>
+                                        <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                        <userDefinedRuntimeAttributes>
+                                            <userDefinedRuntimeAttribute type="image" keyPath="leftImageSrc" value="play"/>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="bgColor">
+                                                <color key="value" white="1" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="titleColor">
+                                                <color key="value" white="0.33333333333333331" alpha="1" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="leftIconColor">
+                                                <color key="value" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="color" keyPath="leftImageColor">
+                                                <color key="value" systemColor="systemTealColor" red="0.35294117650000001" green="0.7843137255" blue="0.98039215690000003" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="leftIconString" value="Convert"/>
+                                            <userDefinedRuntimeAttribute type="string" keyPath="leftIconFontName" value="C"/>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="leftIconFontSize">
+                                                <real key="value" value="10"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="number" keyPath="spacingTitleIcon">
+                                                <real key="value" value="0.0"/>
+                                            </userDefinedRuntimeAttribute>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="leftAligned" value="YES"/>
+                                            <userDefinedRuntimeAttribute type="boolean" keyPath="rightAligned" value="NO"/>
+                                        </userDefinedRuntimeAttributes>
+                                    </view>
+                                </subviews>
+                                <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
+                                <constraints>
+                                    <constraint firstItem="nps-RZ-Sdp" firstAttribute="leading" secondItem="H6V-Ve-OLn" secondAttribute="leading" id="kbh-sB-1ou"/>
+                                    <constraint firstAttribute="trailing" secondItem="nps-RZ-Sdp" secondAttribute="trailing" id="kxv-Ym-lN0"/>
+                                    <constraint firstItem="nps-RZ-Sdp" firstAttribute="top" secondItem="H6V-Ve-OLn" secondAttribute="top" id="pI5-jA-CIh"/>
+                                    <constraint firstAttribute="bottom" secondItem="nps-RZ-Sdp" secondAttribute="bottom" id="y9W-7q-LBA"/>
+                                </constraints>
+                            </view>
+                        </subviews>
+                        <constraints>
+                            <constraint firstItem="H6V-Ve-OLn" firstAttribute="width" secondItem="jrO-Vp-sbJ" secondAttribute="width" multiplier="0.25" id="VAc-AC-A34"/>
+                        </constraints>
+                    </stackView>
+                </subviews>
+                <constraints>
+                    <constraint firstItem="jrO-Vp-sbJ" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" constant="1" id="8UV-Rf-qrW"/>
+                    <constraint firstAttribute="bottom" secondItem="jrO-Vp-sbJ" secondAttribute="bottom" constant="1" id="EU9-Fx-Fzz"/>
+                    <constraint firstItem="jrO-Vp-sbJ" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="pJt-t4-cRu"/>
+                    <constraint firstAttribute="trailing" secondItem="jrO-Vp-sbJ" secondAttribute="trailing" id="sDo-OQ-igZ"/>
+                </constraints>
+            </tableViewCellContentView>
+            <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="convertButton" destination="nps-RZ-Sdp" id="hxK-BP-eTR"/>
+                <outlet property="customerNameLabel" destination="EDn-ii-RuE" id="3Xe-lp-nWM"/>
+                <outlet property="statusLabel" destination="Bwd-F7-aMl" id="NPQ-5r-mNK"/>
+                <outlet property="statusView" destination="GDt-Yz-oEf" id="T33-Ts-pBO"/>
+            </connections>
+            <point key="canvasLocation" x="32.608695652173914" y="94.084821428571431"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="play" width="31.5" height="36"/>
+    </resources>
+</document>

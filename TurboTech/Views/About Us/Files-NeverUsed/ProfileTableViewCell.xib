@@ -1,0 +1,69 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.XIB" version="3.0" toolsVersion="15702" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" useSafeAreas="YES" colorMatched="YES">
+    <device id="retina6_1" orientation="portrait" appearance="light"/>
+    <dependencies>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="15704"/>
+        <capability name="Safe area layout guides" minToolsVersion="9.0"/>
+        <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
+    </dependencies>
+    <objects>
+        <placeholder placeholderIdentifier="IBFilesOwner" id="-1" userLabel="File's Owner"/>
+        <placeholder placeholderIdentifier="IBFirstResponder" id="-2" customClass="UIResponder"/>
+        <tableViewCell contentMode="scaleToFill" selectionStyle="default" indentationWidth="10" reuseIdentifier="profileCellItem" rowHeight="45" id="KGk-i7-Jjw" customClass="ProfileTableViewCell" customModule="TurboTech" customModuleProvider="target">
+            <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+            <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
+            <tableViewCellContentView key="contentView" opaque="NO" clipsSubviews="YES" multipleTouchEnabled="YES" contentMode="center" tableViewCell="KGk-i7-Jjw" id="H2p-sc-9uM">
+                <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                <autoresizingMask key="autoresizingMask"/>
+                <subviews>
+                    <view contentMode="scaleToFill" translatesAutoresizingMaskIntoConstraints="NO" id="MU8-7z-fNh">
+                        <rect key="frame" x="0.0" y="0.0" width="320" height="45"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                    </view>
+                    <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="staff" translatesAutoresizingMaskIntoConstraints="NO" id="IUu-2X-gog">
+                        <rect key="frame" x="8" y="0.0" width="50" height="45"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="Wie-jr-kHI"/>
+                            <constraint firstAttribute="width" constant="50" id="bVe-DK-cIB"/>
+                        </constraints>
+                    </imageView>
+                    <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="nlN-i1-mha">
+                        <rect key="frame" x="78" y="0.0" width="242" height="45"/>
+                        <color key="backgroundColor" white="0.0" alpha="0.0" colorSpace="custom" customColorSpace="genericGamma22GrayColorSpace"/>
+                        <constraints>
+                            <constraint firstAttribute="height" constant="45" id="0HC-xd-R7g"/>
+                        </constraints>
+                        <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                        <nil key="textColor"/>
+                        <nil key="highlightedColor"/>
+                    </label>
+                </subviews>
+                <constraints>
+                    <constraint firstAttribute="bottom" secondItem="nlN-i1-mha" secondAttribute="bottom" id="1jE-CF-sbn"/>
+                    <constraint firstAttribute="bottom" secondItem="IUu-2X-gog" secondAttribute="bottom" id="Hsf-c7-XQ1"/>
+                    <constraint firstItem="nlN-i1-mha" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="NIS-W7-4Ne"/>
+                    <constraint firstItem="MU8-7z-fNh" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" id="OJu-GY-Vrj"/>
+                    <constraint firstItem="IUu-2X-gog" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="PsZ-Dl-PmF"/>
+                    <constraint firstAttribute="trailing" secondItem="nlN-i1-mha" secondAttribute="trailing" id="U6v-B2-JfD"/>
+                    <constraint firstAttribute="bottom" secondItem="MU8-7z-fNh" secondAttribute="bottom" id="ec1-ia-ouL"/>
+                    <constraint firstItem="nlN-i1-mha" firstAttribute="leading" secondItem="IUu-2X-gog" secondAttribute="trailing" constant="20" id="hLc-m7-Wiz"/>
+                    <constraint firstItem="MU8-7z-fNh" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="pQD-V5-kVi"/>
+                    <constraint firstItem="IUu-2X-gog" firstAttribute="leading" secondItem="H2p-sc-9uM" secondAttribute="leading" constant="8" id="qw1-16-P7s"/>
+                    <constraint firstItem="IUu-2X-gog" firstAttribute="centerY" secondItem="H2p-sc-9uM" secondAttribute="centerY" id="tzx-0o-moq"/>
+                    <constraint firstItem="nlN-i1-mha" firstAttribute="top" secondItem="H2p-sc-9uM" secondAttribute="top" id="vfF-XQ-zGp"/>
+                    <constraint firstAttribute="trailing" secondItem="MU8-7z-fNh" secondAttribute="trailing" id="y0A-Nh-L7S"/>
+                </constraints>
+            </tableViewCellContentView>
+            <viewLayoutGuide key="safeArea" id="njF-e1-oar"/>
+            <connections>
+                <outlet property="iconCellOutlet" destination="IUu-2X-gog" id="5ya-Wq-QDH"/>
+                <outlet property="lbCellOutlet" destination="nlN-i1-mha" id="PHR-Ae-dKj"/>
+                <outlet property="subContentViewOutlet" destination="MU8-7z-fNh" id="1mI-Yc-4iE"/>
+            </connections>
+            <point key="canvasLocation" x="-471.01449275362324" y="64.620535714285708"/>
+        </tableViewCell>
+    </objects>
+    <resources>
+        <image name="staff" width="50" height="50"/>
+    </resources>
+</document>
